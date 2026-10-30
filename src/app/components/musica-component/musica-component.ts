@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-musica-component',
   standalone: false,
   styleUrl: './musica-component.css',
-  templateUrl: './musica-component.html',
+  templateUrl: './musica-component.html'
 })
 export class MusicaComponent {}

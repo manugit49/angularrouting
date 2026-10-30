@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home-component/home-component';
 import { CineComponent } from './components/cine-component/cine-component';
 import { NotFoundComponent } from './components/not-found-component/not-found-component';
 import { MenuComponent } from './components/menu-component/menu-component';
+import { NumerosParesComponent } from './components/numeros-pares-component/numeros-pares-component';
+import { FormsModule } from '@angular/forms';
+import { TablaMultiplicarComponent } from './components/tabla-multiplicar-component/tabla-multiplicar-component';
 
 @NgModule({
   declarations: [
@@ -16,8 +19,10 @@ import { MenuComponent } from './components/menu-component/menu-component';
     CineComponent,
     NotFoundComponent,
     MenuComponent,
+    NumerosParesComponent,
+    TablaMultiplicarComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule ],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
 })

@@ -1,0 +1,12 @@
+<form #formPares = "ngForm">
+    Inicio: <input type="number" name="cajainicio" #cajainicio/>
+    Fin: <input type="number" name="cajafin" #cajafin/>
+    <button (click)="mostrarPares()">
+        Mostrar pares
+    </button>
+</form>
+<ul>
+    @for(num of arrayNumeros; track num){
+        <li>{{num}}</li>
+    }
+</ul>
